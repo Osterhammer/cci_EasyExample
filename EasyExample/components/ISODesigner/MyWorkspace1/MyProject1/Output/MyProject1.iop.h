@@ -41,6 +41,7 @@
 #define Icon_Button_PlusPlus              20001
 #define Icon_SoftKey_MinusMinus           20002
 #define IconSoftKey_PlusPlus              20003
+#define Download_20004                    20004
 #define NumberVariable_Tageszaehler       21000
 #define NumberVariable_Gesamtzaehler      21001
 #define NumberVariable_Gesamtziel         21002
@@ -55,3 +56,4 @@
 #define ObjectPointer_Gesamtziel          27003
 #define AuxFunction2_PlusPlus             29000
 #define AuxFunction2_MinusMinus           29001
+#define ExternalObjectDefinition_38000    38000
