@@ -108,8 +108,8 @@ iso_u32 Gesamtziel = 80;
 //Das ist meine Favorisierte Schreibweise. man muss sich aber das ? und den : für WENN und SONST einprägen.
 void CheckZiel(iso_u8 u8Instance) {
 
-	IsoVtcCmd_NumericValue(u8Instance, ObjectPointer_Tagesziel,  Tageszaehler  >= Tagesziel  ? OutputString_ZielErreicht : ID_NULL);
-	IsoVtcCmd_NumericValue(u8Instance, ObjectPointer_Gesamtziel, Gesamtzaehler >= Gesamtziel ? OutputString_ZielErreicht : ID_NULL);
+	//IsoVtcCmd_NumericValue(u8Instance, ObjectPointer_Tagesziel,  Tageszaehler  >= Tagesziel  ? OutputString_ZielErreicht : ID_NULL);
+	//IsoVtcCmd_NumericValue(u8Instance, ObjectPointer_Gesamtziel, Gesamtzaehler >= Gesamtziel ? OutputString_ZielErreicht : ID_NULL);
 
 }
 
@@ -118,13 +118,13 @@ void CheckZiel(iso_u8 u8Instance) {
 void CheckZielAlternativ(iso_u8 u8Instance) {
 
 	if (Tageszaehler >= Tagesziel) { //WENN Bedingung
-		IsoVtcCmd_NumericValue(u8Instance, ObjectPointer_Tagesziel, OutputString_ZielErreicht); //DANN Fall
+		//IsoVtcCmd_NumericValue(u8Instance, ObjectPointer_Tagesziel, OutputString_ZielErreicht); //DANN Fall
 	} else {
 		IsoVtcCmd_NumericValue(u8Instance, ObjectPointer_Tagesziel, ID_NULL); //SONST Fall
 	}
 
 	if(Gesamtzaehler >= Gesamtziel) {
-		IsoVtcCmd_NumericValue(u8Instance, ObjectPointer_Gesamtziel, OutputString_ZielErreicht); //DANN Fall
+		//IsoVtcCmd_NumericValue(u8Instance, ObjectPointer_Gesamtziel, OutputString_ZielErreicht); //DANN Fall
 	} else {
 		IsoVtcCmd_NumericValue(u8Instance, ObjectPointer_Gesamtziel, ID_NULL); //SONST Fall
 	}
