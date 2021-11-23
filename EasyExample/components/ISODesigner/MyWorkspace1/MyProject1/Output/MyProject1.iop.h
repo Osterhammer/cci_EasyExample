@@ -8,6 +8,7 @@
 #define MASK_HEIGHT                         480
 #define WorkingSet_0                          0
 #define Macro_S2                              1
+#define Macro_S1                              2
 #define DataMask_Home                      1000
 #define DataMask_S2                        1001
 #define Container_Gesamtzaehler            3000
@@ -22,6 +23,7 @@
 #define Button_Reset_Tageszaehler          6002
 #define Button_MinusMinus                  6003
 #define Button_S2                          6004
+#define Button_S1                          6005
 #define InputNumber_Gesamtziel             9000
 #define InputNumber_Tagesziel              9001
 #define OutputString_s2                   11000
@@ -30,6 +32,7 @@
 #define OutputString_Gesamtzaehler        11003
 #define OutputString_Tageszaehler         11004
 #define OutputString_Reset_Tageszaehler   11005
+#define OutputString_S1                   11006
 #define OutputString_SoftKey_Reset_Gesamtzaehler  11009
 #define OutputString_SoftKey_Reset_Tageszaehler  11010
 #define OutputString_Ziel                 11011
