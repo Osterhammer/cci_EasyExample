@@ -47,28 +47,31 @@
 #define _1065067_w378h270c1cx511cy250__1__20001_Offset       7457
 #define Icon_SoftKey_MinusMinus_Offset                      13874
 #define IconSoftKey_PlusPlus_Offset                         14113
-#define NumberVariable_Tageszaehler_Offset                  14462
-#define NumberVariable_Gesamtzaehler_Offset                 14469
-#define NumberVariable_Gesamtziel_Offset                    14476
-#define NumberVariable_Tagesziel_Offset                     14483
-#define FontAttributes_23000_Offset                         14490
-#define FontAttributes_Default_Offset                       14498
-#define FontAttributes_Button_Offset                        14506
-#define LineAttributes_Border_Offset                        14514
-#define FillAttributes_DarkerBG_Offset                      14522
-#define ObjectPointer_Null2_Offset                          14530
-#define ObjectPointer_Tagesziel_Offset                      14535
-#define ObjectPointer_Null1_Offset                          14540
-#define ObjectPointer_Gesamtziel_Offset                     14545
-#define AuxFunction2_PlusPlus_Offset                        14550
-#define AuxFunction2_MinusMinus_Offset                      14562
+#define _1065067_w378h270c1cx511cy250_20004_Offset          14462
+#define _1065067_w378h270c1cx511cy250__1__20005_Offset      20879
+#define NumberVariable_Tageszaehler_Offset                  27296
+#define NumberVariable_Gesamtzaehler_Offset                 27303
+#define NumberVariable_Gesamtziel_Offset                    27310
+#define NumberVariable_Tagesziel_Offset                     27317
+#define FontAttributes_23000_Offset                         27324
+#define FontAttributes_Default_Offset                       27332
+#define FontAttributes_Button_Offset                        27340
+#define LineAttributes_Border_Offset                        27348
+#define FillAttributes_DarkerBG_Offset                      27356
+#define ObjectPointer_Null2_Offset                          27364
+#define ObjectPointer_Tagesziel_Offset                      27369
+#define ObjectPointer_Null1_Offset                          27374
+#define ObjectPointer_Gesamtziel_Offset                     27379
+#define AuxFunction2_PlusPlus_Offset                        27384
+#define AuxFunction2_MinusMinus_Offset                      27396
+#define ExternalObjectDefinition_38000_Offset               27408
 
 #define ISO_OP_MEMORY_CLASS
 
-#define ISO_OP_MyProject1_Size  14574
+#define ISO_OP_MyProject1_Size  27421
 extern const unsigned char ISO_OP_MEMORY_CLASS isoOP_MyProject1[];
 
-#define ISO_OP_MyProject1_ObjectNumber     61
+#define ISO_OP_MyProject1_ObjectNumber     64
 extern const unsigned long ISO_OP_MEMORY_CLASS isoOP_MyProject1_Offset[];
 extern const unsigned long ISO_OP_MEMORY_CLASS isoOP_MyProject1_Offset_Id[];
 #define ISO_OP_MyProject1_Scale_Offset      1

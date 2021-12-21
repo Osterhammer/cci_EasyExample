@@ -50,19 +50,22 @@ const unsigned long ISO_OP_MEMORY_CLASS isoOP_MyProject1_Offset_Id[] = {
 	  7457,  // _1065067_w378h270c1cx511cy250__1__20001_Offset
 	 13874,  // Icon_SoftKey_MinusMinus_Offset
 	 14113,  // IconSoftKey_PlusPlus_Offset
-	 14462,  // NumberVariable_Tageszaehler_Offset
-	 14469,  // NumberVariable_Gesamtzaehler_Offset
-	 14476,  // NumberVariable_Gesamtziel_Offset
-	 14483,  // NumberVariable_Tagesziel_Offset
-	 14490,  // FontAttributes_23000_Offset
-	 14498,  // FontAttributes_Default_Offset
-	 14506,  // FontAttributes_Button_Offset
-	 14514,  // LineAttributes_Border_Offset
-	 14522,  // FillAttributes_DarkerBG_Offset
-	 14530,  // ObjectPointer_Null2_Offset
-	 14535,  // ObjectPointer_Tagesziel_Offset
-	 14540,  // ObjectPointer_Null1_Offset
-	 14545,  // ObjectPointer_Gesamtziel_Offset
-	 14550,  // AuxFunction2_PlusPlus_Offset
-	 14562,  // AuxFunction2_MinusMinus_Offset
+	 14462,  // _1065067_w378h270c1cx511cy250_20004_Offset
+	 20879,  // _1065067_w378h270c1cx511cy250__1__20005_Offset
+	 27296,  // NumberVariable_Tageszaehler_Offset
+	 27303,  // NumberVariable_Gesamtzaehler_Offset
+	 27310,  // NumberVariable_Gesamtziel_Offset
+	 27317,  // NumberVariable_Tagesziel_Offset
+	 27324,  // FontAttributes_23000_Offset
+	 27332,  // FontAttributes_Default_Offset
+	 27340,  // FontAttributes_Button_Offset
+	 27348,  // LineAttributes_Border_Offset
+	 27356,  // FillAttributes_DarkerBG_Offset
+	 27364,  // ObjectPointer_Null2_Offset
+	 27369,  // ObjectPointer_Tagesziel_Offset
+	 27374,  // ObjectPointer_Null1_Offset
+	 27379,  // ObjectPointer_Gesamtziel_Offset
+	 27384,  // AuxFunction2_PlusPlus_Offset
+	 27396,  // AuxFunction2_MinusMinus_Offset
+	 27408,  // ExternalObjectDefinition_38000_Offset
 };  // isoOP_MyProject1_Offset_Id
