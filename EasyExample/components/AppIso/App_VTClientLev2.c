@@ -146,7 +146,7 @@ void VTC_handleSoftkeysAndButtons_RELEASED(const struct ButtonActivation_S *pBut
 	case Button_PlusPlus:
 		Tageszaehler++;
 		Gesamtzaehler++;
-		IsoVtcCmd_CtrlAudioSignal(pButtonData->u8Instance, 4, 440, 100, 400);
+		IsoVtcCmd_CtrlAudioSignal(pButtonData->u8Instance, 1, 440, 100, 400);
 		break;
 
 	// SoftKey mit Namen  SoftKey_MinusMinus mit ID 5003 wurde losgelassen.
@@ -159,17 +159,19 @@ void VTC_handleSoftkeysAndButtons_RELEASED(const struct ButtonActivation_S *pBut
 		//bei Zählerstand 0 soll er nicht mehr -- machen.
 		if (Gesamtzaehler > 0)
 			Gesamtzaehler--;
-		IsoVtcCmd_CtrlAudioSignal(pButtonData->u8Instance, 4, 440, 100, 400);
+		IsoVtcCmd_CtrlAudioSignal(pButtonData->u8Instance, 1, 440, 100, 400);
 		break;
 
 	case SoftKey_Reset_Gesamtzaehler:
 	case Button_Reset_Gesamtzaehler:
-		Gesamtzaehler = 0;
+		Gesamtzaehler = 20;
+		IsoVtcCmd_CtrlAudioSignal(pButtonData->u8Instance, 2, 440, 100, 200);
 		break;
 
 	case SoftKey_Reset_Tageszaehler:
 	case Button_Reset_Tageszaehler:
 		Tageszaehler = 0;
+		IsoVtcCmd_CtrlAudioSignal(pButtonData->u8Instance, 2, 440, 100, 200);
 		break;
 
 	default:
