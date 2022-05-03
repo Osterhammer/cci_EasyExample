@@ -67,7 +67,7 @@
 					<Value>Lucida Console</Value>
 				</Property>
 				<Property Name="Size">
-					<Value>8</Value>
+					<Value>12</Value>
 				</Property>
 				<Property Name="Height">
 					<Value>16</Value>
@@ -88,7 +88,7 @@
 					<Value>0</Value>
 				</Property>
 				<Property Name="PointWidth">
-					<Value>6</Value>
+					<Value>9</Value>
 				</Property>
 				<Property Name="Width">
 					<Value>12</Value>
@@ -124,7 +124,7 @@
 					<Value>Lucida Console</Value>
 				</Property>
 				<Property Name="Size">
-					<Value>12</Value>
+					<Value>18</Value>
 				</Property>
 				<Property Name="Height">
 					<Value>24</Value>
@@ -145,7 +145,7 @@
 					<Value>0</Value>
 				</Property>
 				<Property Name="PointWidth">
-					<Value>8</Value>
+					<Value>12</Value>
 				</Property>
 				<Property Name="Width">
 					<Value>16</Value>
@@ -2506,10 +2506,10 @@
 					<Value>210</Value>
 				</Property>
 				<Property Name="PosValVariableObjectID">
-					<Value>-1</Value>
+					<Value>21001</Value>
 				</Property>
 				<Property Name="TargetValVariableObjectID">
-					<Value>-1</Value>
+					<Value>21002</Value>
 				</Property>
 				<Property Name="MinValVarObjectID">
 					<Value>-1</Value>
@@ -2521,6 +2521,10 @@
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
+			<Objects>
+				<Object JVS-ID="21001"/>
+				<Object JVS-ID="21002"/>
+			</Objects>
 		</Object>
 		<Object Class="CRectangle" Name="Rectangle" ObjectName="LinearBargraph_Tageszaehler" Pinned="FALSE" JVS-ID="18001">
 			<PropertySheet Name="Rectangle">

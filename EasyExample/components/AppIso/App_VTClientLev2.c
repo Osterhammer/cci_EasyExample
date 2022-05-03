@@ -100,7 +100,6 @@ void VTC_setPoolManipulation(const ISOVT_EVENT_DATA_T* psEvData)
 //lokale Variablen, NICHT Spannungsausfallsicher !
 iso_u32 Tageszaehler = 0;
 iso_u32 Gesamtzaehler = 0;
-iso_u32 Hugo = 0;
 iso_u32 Tagesziel = 30;
 iso_u32 Gesamtziel = 80;
 
@@ -168,7 +167,7 @@ void VTC_handleSoftkeysAndButtons_RELEASED(const struct ButtonActivation_S *pBut
 
 	case SoftKey_Reset_Tageszaehler:
 	case Button_Reset_Tageszaehler:
-		Hugo = 0;
+		Tageszaehler = 0;
 		break;
 
 	default:
